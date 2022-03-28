@@ -24,11 +24,11 @@ window.onload = function() {
 
   document.body.innerHTML =
     "<h1> OMG!you will not beleive me but </h1>" +
-    who[getRandomInt(4)] +
+    who[getRandomInt(who.length)] +
     " " +
-    action[getRandomInt(4)] +
+    action[getRandomInt(action.length)] +
     " " +
-    what[getRandomInt(4)] +
+    what[getRandomInt(what.length)] +
     " " +
-    when[getRandomInt(5)];
+    when[getRandomInt(when.length)];
 };
